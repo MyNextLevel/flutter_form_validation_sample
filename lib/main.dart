@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'register_page.dart';
+
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
@@ -10,11 +12,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Form validation example',
-      home: Scaffold(
-        body: Center(
-          child: Text('Home screen'),
-        ),
-      ),
+      home: RegisterPage(),
     );
   }
 }
